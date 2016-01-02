@@ -1,4 +1,6 @@
 <?php
+//Scalar type declarations
+	//http://php.net/manual/en/functions.arguments.php#functions.arguments.type-declaration
 
 ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);

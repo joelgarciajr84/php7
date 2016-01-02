@@ -30,6 +30,18 @@ class php7{
 		return $age;
 
 	}
+
+	//Anonymous Classes
+
+	function AnomClass(){
+		$output = new class(){
+
+			public function __construct(){
+				$this->name = "Solid Snake";
+			}
+		};
+		return $output;
+	}
 	
 
 }
